@@ -18,7 +18,7 @@ with remod(ac_no,Trans_date,deb_cred,amount) as (
         case when sum(amount) over (partition by ac_no order by Trans_date)>=1000 then 1 else 0 end as flag
          from remod)
 
-select ac_no,min(Trans_date) from sumed_table  where Total_bal>=1000 and flag=1
+select ac_no,min(Trans_date) as Transaction_date from sumed_table  where Total_bal>=1000 and flag=1
 group by ac_no
 
 
