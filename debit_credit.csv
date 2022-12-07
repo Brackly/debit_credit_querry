@@ -1,0 +1,12 @@
+ac_no,Trans_date,deb_cred,amount
+acc_1,2022-01-20,credit,100
+acc_1,2022-01-21,credit,500
+acc_1,2022-01-22,credit,300
+acc_1,2022-01-23,credit,200
+acc_2,2022-01-20,credit,500
+acc_2,2022-01-21,credit,1100
+acc_2,2022-01-22,debit,1000
+acc_3,2022-01-20,credit,1000
+acc_4,2022-01-20,credit,1500
+acc_4,2022-01-21,debit,500
+acc_5,2022-01-20,credit,900
